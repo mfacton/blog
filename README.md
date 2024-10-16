@@ -1,2 +1,2 @@
 # blog
-Blog Website
+Blog Website using Hugo and Staticman
