@@ -1,2 +1,2 @@
 # blog
-Blog Website using Hugo and Staticman
+Blog Website using Hugo, Staticman and Threejs

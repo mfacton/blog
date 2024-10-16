@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ or .Title .Site.Title }}{{ if ne .Kind "home" }} | {{ .CurrentSection.Title }}{{ end }}</title>
+
+    <title>{{ .Site.Title }}</title>
     {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
+    
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ if .Params.katex }}{{ partial "partials/katex.html" . }}{{ end }}
   </head>

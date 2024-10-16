@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Miguel&#39;s Blog</title>
+    <title>Posts on Miguel&#39;s Blogo</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Miguel&#39;s Blog</description>
+    <description>Recent content in Posts on Miguel&#39;s Blogo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some math notes</title>
+      <link>http://localhost:1313/posts/math-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/math-test/</guid>
+      <description>\( \text{A system of } m \text{ equations in } n \text{ variables:}\newline a_{1,1}x_1 + a_{1,2}x_2 + &amp;hellip; + a_{1,n}x_n = b_1\newline a_{2,1}x_1 + a_{2,2}x_2 + &amp;hellip; + a_{2,n}x_n = b_2\newline \vdots\newline a_{m,1}x_1 + a_{m,2}x_2 + &amp;hellip; + a_{m,n}x_n = b_m \)</description>
+    </item>
   </channel>
 </rss>
