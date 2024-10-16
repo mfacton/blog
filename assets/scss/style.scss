@@ -1,0 +1,43 @@
+$paradise-pink: #EA1F4B;
+$paradise-pink-light: #EF5778;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 3.8rem 0 .6rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p, ul, ol {
+  font-size: 1.8rem;
+  margin: 0 0 .8em;
+}
+
+a {
+  text-decoration: none;
+  color: $paradise-pink;
+
+  &:hover {
+    color: $paradise-pink-light;
+  }
+}
+
+article {
+  padding: 2rem 1rem;
+  max-width: calc(44em + 2rem);
+  margin: 0 auto;
+}
