@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ .Site.Title }}</title>
-    {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
     
+    {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ if .Params.katex }}{{ partial "partials/katex.html" . }}{{ end }}
   </head>
